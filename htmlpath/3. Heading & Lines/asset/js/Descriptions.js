@@ -7,6 +7,6 @@ let des = [
         {
         numb: 2,
         title: "Horizontal Lines ",
-        description: "Untuk membuat horizontal line, gunakan &lt;hr&gt; tag. COntohnya seperti<br> &lt; hr size='10' &gt;. Kamu bisa menambah comment untuk menandai apa yang kamu buat namun, Browser tidak menampilkan comments,<br>Tapi membantu dokumen HTML dan menambahkan deskripsi didalam file tersebut."
+        description: "Untuk membuat horizontal line, gunakan &lt;hr&gt; tag. Contohnya seperti<br> &lt; hr size='10' &gt;. Kamu bisa menambah comment untuk menandai apa yang kamu buat namun, Browser tidak menampilkan comments,<br>Tapi membantu dokumen HTML dan menambahkan deskripsi didalam file tersebut."
         }
 ]

@@ -4,7 +4,7 @@ numb: 1,
 question: "editor apa yang bisa dipakai untuk membuat dan mengedit HTML code",
 answer: "Visual Studio Code",
 options: [
-    "MS. Exxel editor",
+    "MS. Excel editor",
     "Visual Studio Code",
     "Microsoft edge"
 ]
