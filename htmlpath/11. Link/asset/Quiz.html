@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+©Copyright-2021 R1N NY44 - Folern, All Rights Reserved.
+GitHub  : https://github.com/R1N-NY44
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folern - Quiz HTML</title>
+    <link href='js/V5.svg' rel='shortcut icon'/>
+    <link rel="stylesheet" href="js/Style_Questions.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+
+    <div class="start_btn"><button>Mulai Quiz</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>&nbsp;Peraturan Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Kamu hanya memiliki waktu <span>1 Menit</span> untuk setiap pertanyaan.</div>
+            <div class="info">2. Pilih salah satu jawaban yang kamu anggap benar.</div>
+            <div class="info">3. Kamu tidak bisa lagi memilih jawaban jika waktu habis.</div>
+            <div class="info">4. Kamu tidak akan bisa keluar Quiz jika sudah memulainya.</div>
+            <div class="info">5. Setiap jawaban yang benar akan mendapatkan poin.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Keluar</button>
+            <button class="restart">Mulai</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <img src="js/V5.svg" width="50px" height="50px">
+            <div class="title">Quiz HTML</div>
+            <div class="timer">
+                <div class="time_left_txt">Sisa Waktu</div>
+                <div class="timer_sec">60</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- pertanyaan -->
+            </div>
+            <div class="option_list">
+                <!-- opsi pilihan jawaban -->
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="total_que">
+                <!-- nomer soal -->
+            </div>
+            <button class="next_btn">>&nbsp;>&nbsp;></button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+          <img src="js/V5.svg" width="60px" height="60px">
+          <p>&nbsp;Folern</p>
+        </div>
+        <div class="complete_text"><br>Hebat kamu sudah menyelsaikan Quiz!<br>&nbsp;</div>
+        <div class="score_text">
+            <!-- Menampilkan score-->
+        </div>
+        <div class="complete_text">
+         &nbsp;<br>Kamu bisa mengulang Quiz atau lanjut ke materi selanjutnya, jika ingin rehat sejenak bisa kembali ke home page kami. <br>&nbsp;
+       </div>
+        <div class="buttons">
+            <button class="restart_result">Ulang</button>
+            <!-- Pulang! -->
+            <a href="#"><button class="home"><i class="fas fa-home"></i>&nbsp;Home</button></a>
+        </div>
+        <div class="buttons">
+          <a href="../.././12. Elemen/index.html"><button class="quit_result">Selanjutnya</button></a>
+        </div>
+    </div>
+
+    <script src="js/Questions.js"></script>
+    <script src="js/Script_Questions.js"></script>
+
+</body>
+</html>
