@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no" />
+        <meta name="author" content="Riandika Fathur Rochim" />
+        <meta name="publisher" content="Folearn" />
+        <!-- style -->
+        <link rel="stylesheet" href="css/02.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+        <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" />
+        <title>Folern - Jelajahi pengetahuan barumu bersama kami</title>
+        <!-- icon -->
+        <link rel="apple-touch-icon" type="image/png" href="components/assets/apple-touch-icon.png" sizes="60x60" />
+        <link rel="icon" type="image/png" href="components/assets/favicon.ico" />
+        <link rel="icon" type="image/png" href="components/assets/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="components/assets/android-chrome-192x192.png" sizes="192x192" />
+        <link rel="icon" type="image/png" href="components/assets/favicon-16x16.png" sizes="16x16" />
+    </head>
+    <body class="bg-black">
+        <div id="loading"></div>
+        <nav class="py-2 navbar navbar-expand-lg navbar-dark bg-gray-900 px-md-5">
+            <div class="container-fluid">
+                <span class="navbar-brand flex">
+                    <img src="components/assets/V5.svg" width="45px" height="45px" />
+                    <div class="hidden md:inline text-2xl">&nbsp;Folern</div>
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link rounded-md md:hover:bg-gray-700" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-md md:hover:bg-gray-700" aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-md md:hover:bg-gray-700" href="courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-md md:hover:bg-gray-700" href="#discuss">Discuss</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-md md:hover:bg-gray-700" href="notfound.html">Blog's</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ========================= -->
+
+        <main class="container-fluid px-md-5 py-10 bg-customize flex">
+            <div class="text-gray-200 pt-md-5 banner-text">
+                <h1 class="mt-4 w-full sm:text-5xl lg:text-6xl leading-none font-extrabold tracking-tight">Jelajahi pengetahuan baru tentang <span id="typed"></span></h1>
+                <p class="max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-medium mt-3 md:mt-6">
+                    Dirancang untuk pemula yang baru belajar coding dari dasar. Bergabunglah bersama komunitas kami dengan bantuan mentor kami yang berpengalaman.
+                </p>
+                <div class="mt-10">
+                    <a href="courses.html" class="no-underline w-full sm:w-auto flex-none bg-gray-900 hover:bg-gray-700 text-white text-lg leading-6 font-semibold py-3 px-6 rounded-xl transition-colors duration-200">
+                        Get started 
+                    </a>
+                </div>
+            </div>
+            <img class="hidden lg:inline" src="components/v1.png" width="43%" alt="" srcset="" />
+        </main>
+
+        <!-- ========================= -->
+
+        <main class="container-fluid px-md-5 bg-black py-10">
+            <div class="w-11/12 max-w-4xl m-auto text-center">
+                <!-- Html -->
+                <div class="cursor-default relative my-6 mx-12 w-16 h-24 inline-block badge primary-element">
+                    <div class="w-16 h-16 absolute bg-white rounded-full z-10 inset-0 m-auto"><i class="text-gray-900 text-3xl mt-2 fab fa-html5"></i></div>
+                    <div class="absolute rounded py-1.5 px-3 z-20 left-1/2 bottom-3 bg-gray-500 -ml-13 text-white text-uppercase">html</div>
+                </div>
+                <!-- Css3 -->
+                <div class="cursor-default relative my-6 mx-12 w-16 h-24 inline-block badge primary-element">
+                    <div class="w-16 h-16 absolute bg-white rounded-full z-10 inset-0 m-auto"><i class="text-gray-900 text-3xl mt-2 fab fa-css3-alt"></i></div>
+                    <div class="absolute rounded py-1.5 px-3.5 z-20 left-1/2 bottom-3 bg-gray-500 -ml-css text-white text-uppercase">css&nbsp;</div>
+                </div>
+                <!-- Javascript -->
+                <div class="cursor-default relative my-6 mx-12 w-16 h-24 inline-block badge primary-element">
+                    <div class="w-16 h-16 absolute bg-white rounded-full z-10 inset-0 m-auto"><i class="text-gray-900 text-3xl mt-2 fab fa-js"></i></div>
+                    <div class="absolute rounded py-1.5 px-3 z-20 left-1/2 bottom-3 bg-gray-500 -ml-css text-white text-uppercase">&nbsp;js&nbsp;</div>
+                </div>
+                <!-- Python -->
+                <div class="cursor-default relative my-6 mx-12 w-16 h-24 inline-block badge primary-element">
+                    <div class="w-16 h-16 absolute bg-white rounded-full z-10 inset-0 m-auto"><i class="text-gray-900 text-3xl mt-2 fab fa-python"></i></div>
+                    <div class="absolute rounded py-1.5 px-3 z-20 left-1/2 bottom-3 bg-gray-500 -ml-python text-white text-uppercase">python</div>
+                </div>
+                <!-- Java -->
+                <div class="cursor-default relative my-6 mx-12 w-16 h-24 inline-block badge primary-element">
+                    <div class="w-16 h-16 absolute bg-white rounded-full z-10 inset-0 m-auto"><i class="text-gray-900 text-3xl mt-2 fab fa-java"></i></div>
+                    <div class="absolute rounded py-1.5 px-3 z-20 left-1/2 bottom-3 bg-gray-500 -ml-java text-white text-uppercase">java</div>
+                </div>
+                <!-- SQL -->
+                <div class="cursor-default relative my-6 mx-12 w-16 h-24 inline-block badge primary-element">
+                    <div class="w-16 h-16 absolute bg-white rounded-full z-10 inset-0 m-auto"><i class="text-gray-900 text-3xl mt-2 fas fa-database"></i></div>
+                    <div class="absolute rounded py-1.5 px-3 z-20 left-1/2 bottom-3 bg-gray-500 -ml-css text-white text-uppercase">sql</div>
+                </div>
+            </div>
+        </main>
+
+        <!-- ========================= -->
+
+        <main class="cursor-default container-fluid p-16 px-md-5 bg-black text-white text-center">
+            <h2 class="mb-10 w-full sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight">Kenapa harus Folearn</h2>
+            <div class="row pt-4 justify-evenly">
+                <div class="col-md-4 pt-4">
+                    <div class="pt-5 mx-auto w-60 h-72 bg-gray-900 rounded-md" data-tilt data-tilt-reverse="true">
+                        <img src="components/undraw_coding_re_iv62.svg" class="rounded-md" alt="" />
+                        <p class="mt-3 text-white">Melatih koding kamu dengan materi kami untuk pemula</p>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-4">
+                    <div class="mx-auto w-60 h-72 bg-gray-900 rounded-md" data-tilt data-tilt-reverse="true">
+                        <img src="components/undraw_community_re_cyrm.svg" class="rounded-md" alt="" />
+                        <p class="mt-3 text-white">Komunitas yang membantu disertai beberapa mentor</p>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-4">
+                    <div class="pt-16 mx-auto w-60 h-72 bg-gray-900 rounded-md" data-tilt data-tilt-reverse="true">
+                        <img src="components/undraw_online_test_gba7.svg" class="rounded-md" alt="" />
+                        <p class="mt-3 text-white">Menguji kemampuan kamu dengan latihan soal dan penalaran logika</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- ========================= -->
+
+        <main class="container-fluid p-16 px-md-5 bg-black text-white text-center">
+            <h2 class="mb-20 w-full sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight">Berita terbaru kami</h2>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="components/assets/V5.svg" class="mx-auto h-72 d-block" alt="..." />
+                        <div class="sm:text-sm lg:text-lg carousel-caption d-block">
+                            <h5>Website Folearn</h5>
+                            <p>Peluncuran Folearn V.0.0.1 Beta</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="components/html5-brands.svg" class="mx-auto h-72 d-block" alt="..." />
+                        <div class="sm:text-sm lg:text-lg carousel-caption d-block">
+                            <h5>Materi HTML tersedia</h5>
+                            <p>Materi HTML telah tersedia untuk kamu</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="components/css3-alt-brands.svg" class="mx-auto h-72 d-block" alt="..." />
+                        <div class="sm:text-sm lg:text-lg carousel-caption d-block">
+                            <h5>Materi CSS segera hadir</h5>
+                            <p>Materi CSS akan tersedia segera</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </main>
+
+        <!-- ========================= -->
+
+        <main class="container-fluid py-16 px-md-5 bg-black text-white text-center">
+            <h5 id="discuss" class="mt-4 mb-14 w-full text-4xl sm:text-4xl lg:text-5xl">Gabung bersama komunitas Folern</h5>
+            <div class="my-4">
+                <a class="no-underline sm:text-2xl lg:text-3xl bg-gray-900 hover:bg-gray-700 flex inline-flex font-semibold text-white text-lg leading-7 py-4 px-6 rounded-xl focus:outline-none"
+                    ><i class="bi bi-discord"></i>&nbsp; Join via Discord
+                </a>
+            </div>
+        </main>
+
+        <!-- ========================= -->
+
+        <main class="container-fluid mt-auto py-10 px-md-5 bg-black text-white text-center">
+            <a class="effect text-gray-500 hover:text-gray-500 no-underline w-16 h-16 inline-block leading-relaxed text-center text-4xl"><i class="fab fa-facebook-f"></i></a>
+            <a class="effect text-gray-500 hover:text-gray-500 no-underline w-16 h-16 inline-block leading-relaxed text-center text-4xl"><i class="fab fa-instagram"></i></a>
+            <a class="effect text-gray-500 hover:text-gray-500 no-underline w-16 h-16 inline-block leading-relaxed text-center text-4xl"><i class="far fa-envelope"></i></a>
+            <a class="effect text-gray-500 hover:text-gray-500 no-underline w-16 h-16 inline-block leading-relaxed text-center text-4xl"><i class="fab fa-youtube"></i></a>
+        </main>
+        <footer class="text-center mt-auto text-white text-sm bg-black pb-10">&copy;2021 Folearn. All right reserved</footer>
+
+        <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+        <script src="main.js"></script>
+        <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+        <script src="js/typed.min.js"></script>
+        <script>
+            var typed = new Typed("#typed", {
+                strings: ["HTML", "CSS", "Javascript", "Python", "Java", "SQL"],
+                typeSpeed: 60,
+                backSpeed: 60,
+                loop: true,
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
