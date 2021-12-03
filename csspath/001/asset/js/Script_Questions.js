@@ -109,8 +109,8 @@ function showQuetions(index){
     }
 }
 
-let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
-let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
+let tickIconTag = '<div></div>'; //dimatikan sementara karna css tabrakan
+let crossIconTag = '<div></div>'; //dimatikan sementara karna css tabrakan
 
 
 function optionSelected(answer){
@@ -161,7 +161,7 @@ function startTimer(time){
         }
         if(time < 0){
             clearInterval(counter);
-            timeText.textContent = "Time Off";
+            timeText.textContent = "Waktu Habis";
             const allOptions = option_list.children.length;
             let correcAns = questions[que_count].answer;
             for(i=0; i < allOptions; i++){

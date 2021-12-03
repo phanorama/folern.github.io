@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -9,8 +9,7 @@
 
 body{
     background: #111827;
-    margin-top: 300px;
-    margin-bottom: 300px;
+    margin-top: 1000px;
 }
 
 ::selection{
@@ -35,6 +34,7 @@ body{
 .quiz_box.activeQuiz,
 .description_box.activeDescription,
 .closing_box.activeClosing{
+    margin-top: 60px;
     opacity: 1;
     z-index: 5;
     pointer-events: auto;
@@ -42,7 +42,7 @@ body{
 }
 
 .start_btn button{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
     color: #111827;
     padding: 15px 30px;
@@ -93,15 +93,16 @@ body{
     height: 60px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 0 30px;
     border-top: 1px solid lightgrey;
 }
 
+
 .description_box .des_btn button{
     margin: 0 5px;
     height: 40px;
-    width: 120px;
+    width: 80px;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
@@ -130,6 +131,12 @@ body{
 .description-list button.prev_btn_description:hover{
     background: #292f3d;
 }
+
+button.home:hover{
+  background: #111827;
+  color: #fff;
+}
+
 
 .info_box{
     width: 90%;

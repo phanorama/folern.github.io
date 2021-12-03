@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     justify-content: center;
 }
 
 body{
     background: #111827;
+    margin-top: 1000px;
 }
 
 ::selection{
@@ -31,6 +32,7 @@ body{
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
 .result_box.activeResult{
+    margin-top: 60px;
     opacity: 1;
     z-index: 5;
     pointer-events: auto;
@@ -50,7 +52,7 @@ body{
 }
 
 .info_box{
-    width: 70%;
+    width: 88%;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -114,7 +116,7 @@ body{
 }
 
 .quiz_box{
-    width: 70%;
+    width: 88%;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -127,7 +129,7 @@ body{
     position: relative;
     z-index: 2;
     height: 70px;
-    padding: 0 30px;
+    padding: 0 15px;
     background: #fff;
     border-radius: 5px 5px 0 0;
     display: flex;
@@ -190,7 +192,7 @@ section{
 }
 
 section .que_text{
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
 }
 
@@ -204,7 +206,7 @@ section .option_list .option{
     border: 1px solid #84c5fe;
     border-radius: 5px;
     padding: 8px 15px;
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -319,7 +321,7 @@ footer button.show{
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
-    width: 70%;
+    width: 88%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -338,12 +340,13 @@ footer button.show{
 .result_box .complete_text{
     font-size: 20px;
     font-weight: 500;
+    text-align: center;
 }
 
 .result_box .score_text span{
     display: flex;
     margin: 10px 0;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 500;
 }
 
@@ -354,11 +357,11 @@ footer button.show{
 
 .result_box .buttons{
     display: flex;
-    margin: 20px 0;
+    margin: 5px 0;
 }
 
 .result_box .buttons button{
-    margin: 0 10px;
+    margin: 0 5px;
     height: 45px;
     padding: 0 20px;
     font-size: 18px;
@@ -406,6 +409,18 @@ footer button.show{
 }
 
 .buttons button.restart_result:hover{
+    color: #fff;
+    background: #111827;
+}
+
+
+/* ////////////////////////////////// */
+.buttons button.home{
+    color: #111827;
+    background: #fff;
+}
+
+.buttons button.home:hover{
     color: #fff;
     background: #111827;
 }
