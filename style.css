@@ -66,6 +66,9 @@ iframe {
     background-image: url(components/assets/avatar1.png);
     background-size: cover;
 }
+.bg-avatar2{
+    background-image: url(components/assets/avatar2.png);
+}
 .bg-avatar3{
     background-image: url(components/assets/avatar3.png);
     background-size: cover;

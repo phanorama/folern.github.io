@@ -9,7 +9,7 @@ let des= [
   {
     numb: 2,
     title : "Internal",
-    description: "Internal Style didefinisikan di dalam tag &lt;style&gt;, di bagian head pada HTML. <br>Contoh: <br>&lt;head&gt; <br>&lt;style&gt; <br>p { <br>color:white; <br>background-color:gray; <br>} <br>&lt;/style&gt; <br>&lt;/head&gt; <br>&lt;body&gt; <br>&lt;p&gt;Ini paragraf pertama.&lt;/p&gt;<br>&lt;/body&gt;"
+    description: "Internal Style didefinisikan di dalam tag &lt;style&gt;, di bagian head pada HTML. <br>Contoh: <br><br>&lt;head&gt; <br>&lt;style&gt; <br>p { <br>color:white; <br>background-color:gray; <br>} <br>&lt;/style&gt; <br>&lt;/head&gt; <br>&lt;body&gt; <br>&lt;p&gt;Ini paragraf pertama.&lt;/p&gt;<br>&lt;/body&gt;"
   },
 
   {
